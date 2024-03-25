@@ -1,3 +1,21 @@
+/********************************************************************************
+*  WEB322 – Assignment 04
+* 
+*  I declare that this assignment is my own work in accordance with Seneca's
+*  Academic Integrity Policy:
+* 
+*  https://www.senecacollege.ca/about/policies/academic-integrity-policy.html
+* 
+*  Name: Parth Alkeshkumar Patel 
+*  Student ID: 115335226 
+*  Date: 25/03/2024
+*
+*  Published URL: https://web-development-g8lw5l4dg-parth-35s-projects.vercel.app/
+*
+********************************************************************************/
+
+
+
 const legoData = require("./modules/legoSets");
 const path = require("path");
 
