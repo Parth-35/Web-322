@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lego Collection</title>
-  <link rel="stylesheet" href="../public/css/main.css" />
+  <link rel="stylesheet" href="/css/main.css" />
 
 </head>
 
@@ -19,35 +19,9 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <title>Your Lego Collection</title>
   </head>
-  
-  <body>
-  
-    <nav class="bg-gray-800 p-4 text-white flex justify-between items-center">
 
-    
-      <div class="text-2xl font-bold">
-        <a href="/">Lego Collection</a>
-      </div>
-  
-    
-      <ul class="flex space-x-4">
-    
-        <li><a href="/about" class="hover:text-gray-300">About</a></li>
-  
-        <li class="relative group">
+  <%- include('partials/navbar',{page: ''}) %>
 
-    
-          <select class="p-0 bg-transparent focus:outline-none appearance-none border-none">
-            <option value="#" disabled selected>Theme</option>
-            <option value="/lego/sets?theme=RoboRiders" class="text-black hover:bg-gray-700 py-1 rounded">RoboRiders</option>
-          <option value="/lego/sets?theme=theme2" class="text-black hover:bg-gray-700 py-1 rounded">Theme 2</option>
-          <option value="/lego/sets?theme=theme3" class="text-black hover:bg-gray-700 py-1 rounded">Theme 3</option>
-          </select>
-        </li>
-      </ul>
-    </nav>
-  
-  </body>
   
   </html>
   
@@ -58,7 +32,8 @@
     
       <div class="hero bg-gray-200 p-8 text-center mb-8">
         <h1 class="text-4xl font-bold mb-48">Explore Our Lego Collection</h1>
-        <a href="https://www.lego.com/en-ca/product/millennium-falcon-75192" class="btn bg-blue-500 text-white py-2 px-4 rounded-full">View Lego Sets</a>
+        <a href="/lego/sets" class="btn bg-blue-500 text-white py-2 px-4 rounded-full">View Lego Sets</a>
+        
       </div>
   
   
@@ -69,7 +44,10 @@
           <img src="https://m.media-amazon.com/images/I/81kmuPJ9IOL._AC_SX679_.jpg" width="200px" alt="Lego Set 1" class="w-full h-128 object-cover mb-4">
           <h2 class="text-xl font-semibold mb-2">LEGO Star Wars Ultimate Millennium Falcon 75192 Expert Building Kit and Starship Model</h2>
           <p class="text-gray-600 mb-4">The Millennium Falcon is built with 7,541 pieces and includes two crews of minifigures - 4 classic crew minifigures: Han Solo, Chewbacca, Princess Leia and C-3PO, plus 3 Star Wars Episode VII/VIII crew minifigures: Older Han Solo, Rey and Finn</p>
-          <a href="https://www.lego.com/en-ca/product/millennium-falcon-75192" class="btn bg-blue-500 text-white py-2 px-4 rounded-full">View Details</a>
+          <a href="/lego/sets/001-1" class="inline-block bg-blue-500 text-white px-4 py-2 rounded-full flex items-center justify-center hover:bg-gray-300">View Details</a>
+          
+
+
         </div>
   
       
@@ -77,7 +55,8 @@
           <img src="https://media-www.canadiantire.ca/product/seasonal-gardening/toys/toys-games/0509331/lego-tbd-minecraft-2-2022-e1f6d5bc-c139-441d-9be4-ca7f2a889465-jpgrendition.jpg?imdensity=1&imwidth=1244&impolicy=gZoom" alt="Lego Set 2" class="w-full h-128 object-cover mb-4">
           <h2 class="text-xl font-semibold mb-2">LEGO® 21190 Minecraft The Abandoned Village Set</h2>
           <p class="text-gray-600 mb-4">The Village features rainforest, snow and desert biomes, and includes a watchtower, library, blacksmith, butcher and a marketplace</p>
-          <a href="https://www.lego.com/en-ca/product/the-abandoned-village-21190?age-gate=grown_up" class="btn bg-blue-500 text-white py-2 px-4 rounded-full">View Details</a>
+          <a href="/lego/sets/0011-2" class="inline-block bg-blue-500 text-white px-4 py-2 rounded-full flex items-center justify-center hover:bg-gray-300">View Details</a>
+
         </div>
   
        
@@ -86,13 +65,12 @@
           <h2 class="text-xl font-semibold mb-2">LEGO Technic Porsche 911 RSR 42096 Building Kit, New 2019 </h2>
           <p class="text-gray-600 mb-4">Exclusive LEGO Technic replica of the Porsche 911 RSR sports car
             Realistic details include aerodynamic bodywork, black spoked rims, working differential, working steering, independent suspension and a six-cylinder boxer engine with moving pistons</p>
-          <a href="https://www.lego.com/en-ca/product/porsche-911-rsr-42096" class="btn bg-blue-500 text-white py-2 px-4 rounded-full">View Details</a>
+            <a href="/lego/sets/0011-3" class="inline-block bg-blue-500 text-white px-4 py-2 rounded-full flex items-center justify-center hover:bg-gray-300">View Details</a>
+
         </div>
-  
-       
-  
       </div>
     </div>
 </body>
 
-</html>
+</html> 
+
