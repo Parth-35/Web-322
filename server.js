@@ -10,7 +10,7 @@
 *  Student ID: 115335226 
 *  Date: 25/03/2024
 *
-*  Published URL: https://web-development-g8lw5l4dg-parth-35s-projects.vercel.app/
+*  Published URL: https://lively-rain-6490.on.fleek.co/views/home.ejs
 *
 ********************************************************************************/
 
